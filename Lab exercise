@@ -1,1 +1,31 @@
+appshell:
 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp5.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp5.Pages"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem Title="Favorite Games"
+                FlyoutDisplayOptions="AsMultipleItems">
+
+        <ShellContent Title="League of Legends" 
+                      Icon="lol_icon.png"
+                      Route="LoLPage" 
+                      ContentTemplate="{DataTemplate local:LoLPage}" />
+        
+        <ShellContent Title="Valorant"
+                      Icon="valorant_icon.png" 
+                      Route="ValorantPage" 
+                      ContentTemplate="{DataTemplate local:ValorantPage}" />
+        
+        <ShellContent Title="Apex Legends"
+                      Icon="apex_icon.png"
+                      Route="ApexLegendsPage"  
+                      ContentTemplate="{DataTemplate local:ApexLegendsPage}" />
+        
+    </FlyoutItem>
+    
+</Shell>
