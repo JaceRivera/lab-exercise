@@ -1,0 +1,43 @@
+// LoLPage.xaml.cs
+
+using System;
+using System.Collections.Generic;
+
+namespace MauiApp5.Pages;
+
+public partial class LoLPage : ContentPage {
+
+    public LoLPage() {
+        InitializeComponent();
+    }
+}
+
+// ValorantPage.xaml.cs
+
+using System;
+using System.Collections.Generic;
+
+namespace MauiApp5.Pages;  
+
+public partial class ValorantPage : ContentPage
+{
+    public ValorantPage()
+    {
+        InitializeComponent();
+    }
+}
+
+// ApexLegendsPage.xaml.cs
+
+using System;
+using System.Collections.Generic;
+    
+namespace MauiApp5.Pages;
+
+public partial class ApexLegendsPage : ContentPage
+{
+    public ApexLegendsPage()
+    {
+        InitializeComponent();
+    }
+}
